@@ -1,0 +1,71 @@
+{
+    "status": "success",
+    "data": {
+        "screenCode": "positive_feedback_page",
+        "title": "How was your expereince?",
+        "modules": [
+            {
+                "type": "html_paragraph",
+                "text": "<div>please share your feedback</div>",
+                "displayDetails": {
+                    "outerSpacing": {
+                        "top": 0,
+                        "bottom": 0
+                    }
+                }
+            },
+            {
+                "type": "multi_option_selector",
+                "externalRef": "multi_option_selector_feedback_list",
+                "title": null,
+                "items": [
+                    {
+                        "text": "Effective solution 1",
+                    },
+                    {
+                        "text": "Effective solution 2",
+                    },
+                ],
+                "defaultValue": null,
+                "specify_other": false,
+                "isRequired": false,
+                "displayDetails": {
+                    "outerSpacing": {
+                        "top": 0,
+                        "bottom": 0
+                    }
+                },
+            },
+            {
+                "type": "text_input",
+                "title": "Please tell us more details about what you liked",
+                "placeholder": "the more details, the better!",
+                "defaultValue": null,
+                "maxLength": 100,
+                "externalRef": "text_input",
+                "isRequired": true,
+                "isEnabled": true,
+                "isMultiLine": true,
+                "displayDetails": {
+                    "outerSpacing": {
+                        "top": 0,
+                        "bottom": 0
+                    }
+                }
+            },
+            {
+                "type": "form_button",
+                "text": "Submit",
+                "link": "/help_page/submit-feedback/FF8KNNTPJ1XAZ7B/positive_feedback_page",
+                "displayDetails": {
+                    "outerSpacing": {
+                        "top": 0,
+                        "bottom": 0
+                    },
+                    "isSticky": true,
+                    "isMultiSticky": true
+                }
+            }
+        ]
+    }
+}
