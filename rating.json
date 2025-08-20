@@ -27,7 +27,7 @@
             {
                 "type": "multi_option_selector",
                 "externalRef": "multi_option_selector_feedback_list",
-                "title": null,
+                "title": "thats great, what went well?",
                 "items": [
                     {
                         "text": "Effective solution 1",
