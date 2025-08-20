@@ -1,0 +1,51 @@
+{
+    "status": "success",
+    "data": {
+        "screenCode": "feedback_page",
+        "title": "How was your expereince?",
+        "modules": [
+            {
+                "type": "html_paragraph",
+                "text": "<div>please share your feedback</div>",
+                "displayDetails": {
+                    "outerSpacing": {
+                        "top": 0,
+                        "bottom": 0
+                    }
+                }
+            },
+            {
+                "type":"multi_image_selector",
+                "images": [
+                    {
+                        "image_url": "/food/cms-138x138/Price related.1708414655.302642.png",
+                        "screenCode": "positive_feedback_page"
+                    },
+                    {
+                        "image_url": "/food/cms-138x138/Price related.1708414655.302642.png",
+                        "screenCode": "negative_feedback_page"
+                    },
+                ]
+                "displayDetails":{
+                    "outerSpacing":{
+                        "top":0,
+                        "bottom":0
+                    }
+                }
+      		},
+            {
+                "type": "form_button",
+                "text": "Submit feedback",
+                "link": "/help_page/submit-feedback/FF8KNNTPJ1XAZ7B/positive_feedback_page",
+                "displayDetails": {
+                    "outerSpacing": {
+                        "top": 0,
+                        "bottom": 0
+                    },
+                    "isSticky": true,
+                    "isMultiSticky": true
+                }
+            }
+        ]
+    }
+}
