@@ -1,0 +1,72 @@
+{
+	"status":"success",
+	"data":{
+		"screenCode":"tracking_default",
+		"title":"Where is my order?",
+		"modules":[
+			{
+				"type":"image",
+				"logo_url":"/food/cms-138x138/Price related.1708414655.302642.png",
+				"displayDetails":{
+					"outerSpacing":{
+						"top":0,
+						"bottom":0
+					}
+				}
+			},
+			{
+				"type":"header",
+				"text":"Refund processed successfully!",
+				"displayDetails":{
+					"outerSpacing":{
+						"top":0,
+						"bottom":0
+					}
+				}
+			},
+			{
+				"type":"html_paragraph",
+				"text":"<div>Your order is waiting for confirmation from the restaurant<br>You can track it through the order tracking page.</div>",
+				"displayDetails":{
+					"outerSpacing":{
+						"top":0,
+						"bottom":0
+					}
+				}
+			},
+			{
+				"type":"multi_text",
+				"text":[
+					"Confirm order eligibility and contact support for a refund.",
+					"Check your order and contact support for a refund."
+				],
+				"background_color":"#808080",
+				"text_colot":"#808080",
+				"border_type":"bold/default",
+				"border_color":"#808080",
+				"displayDetails":{
+					"outerSpacing":{
+						"top":0,
+						"bottom":0
+					}
+				}
+			},
+			{
+				"type":"buttons",
+				"primaryButton":{
+					"text":"Track",
+					"screenCode":"track_page",
+					"action":"track_order"
+				},
+				"displayDetails":{
+					"outerSpacing":{
+						"top":0,
+						"bottom":0
+					},
+					"isSticky":false,
+					"isMultiSticky":true
+				}
+			}
+		]
+	}
+}
