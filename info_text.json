@@ -1,0 +1,15 @@
+{
+	"type":"info_text",
+	"text":"You can modify the address to a new one nearby. To add a new location, go to my account's address section.",
+  "background_color": "#3492302",
+  "border_type":"bold/default",
+  "border_color":"#4836282",
+  "text_color":"#0458393",
+  "logo_url":"/food/cms-138x138/Price related.1708414655.302642.png",
+	"displayDetails":{
+		"outerSpacing":{
+			"top":0,
+			"bottom":0
+		}
+	}
+}
