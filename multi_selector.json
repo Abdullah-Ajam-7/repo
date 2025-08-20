@@ -1,0 +1,16 @@
+{
+	"type":"multi_options_selector",
+	"externalRef":"multi_options_selector",
+	"defaultValue":"None",
+	"title":"None",
+	"items":[ "same as before" ],
+  "default_visible_items": 3
+	"specify_other":false,
+	"isRequired":true,
+	"displayDetails":{
+		"outerSpacing":{
+			"top":0,
+			"bottom":0
+		}
+	}
+}
