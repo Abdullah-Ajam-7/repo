@@ -15,6 +15,16 @@
                 }
             },
             {
+				"type":"image",
+				"logo_url":"/food/cms-138x138/Price related.1708414655.302642.png",
+				"displayDetails":{
+					"outerSpacing":{
+						"top":0,
+						"bottom":0
+					}
+				}
+			},
+            {
                 "type": "multi_option_selector",
                 "externalRef": "multi_option_selector_feedback_list",
                 "title": null,
