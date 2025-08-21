@@ -9,17 +9,7 @@
 				"logo_url":"/food/cms-138x138/Price related.1708414655.302642.png",
 				"displayDetails":{
 					"outerSpacing":{
-						"top":0,
-						"bottom":0
-					}
-				}
-			},
-			{
-				"type":"header",
-				"text":"Refund processed successfully!",
-				"displayDetails":{
-					"outerSpacing":{
-						"top":0,
+						"top":0, // make sure that we can use this to add empty upper space
 						"bottom":0
 					}
 				}
