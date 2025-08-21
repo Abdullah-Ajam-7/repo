@@ -1,0 +1,79 @@
+1- 
+{
+  "type":"image",
+  "logo_url":"/food/cms-138x138/Price related.1708414655.302642.png",
+  "displayDetails":{
+    "outerSpacing":{
+      "top":0, // make sure that we can use this to add empty upper space
+      "bottom":0
+    }
+  }
+}
+
+2- new button actions: home (close DT tree), 
+
+3- Render confirmation page as a normal page which has 
+{
+  'screenCode': 'screen_1'
+  'title': 'title 123',
+  'modules': []
+}
+
+4- 
+{
+	"type":"dialog_box",
+	"notes":[
+      "You can modify the address to a new one nearby. To add a new location, go to my account's address section.",
+      "note2..."
+  ],
+  "background_color": "#3492302",
+  "border_type":"bold/default",
+  "border_color":"#4836282",
+  "text_color":"#0458393",
+  "logo_url":"/food/cms-138x138/Price related.1708414655.302642.png", // null -> no logo
+	"displayDetails":{
+		"outerSpacing":{
+			"top":0,
+			"bottom":0
+		}
+	}
+}
+
+
+5- 
+{
+	"type":"multi_options_selector", // or single_options_selector
+  "title" : "bla bla", //new feild
+  "default_visible_items": 3, //new feild
+  ...
+}
+
+6-
+upload images by FE & share CDN links 
+
+7- 
+add render_type (default/ minimal) in each page to render minimal page (ex: feedback page)
+
+8-
+New Component 
+{
+  "type":"nested_selector",
+	"items":[
+      "title": "",
+      "selected_logo": "",
+      "unselected_logo": "",
+      "modules":[]
+  ]
+}
+
+9- 
+New Component
+{
+  "type":"2D_selector",
+  "title": "😥 Sorry to hear that. What didn’t go well?"
+	"items":[
+    ["Response was unclear", "Issue not fixed"],
+    ["Took too long to resolve", ...],
+    ...
+  ]
+}
